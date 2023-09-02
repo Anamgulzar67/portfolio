@@ -31,7 +31,7 @@ const About = () => {
                 <Button text={"Linkedin"} />
               </Link>
               <div className="flex  flex-row  bg-slate-50 mx-16 rounded-lg h-12">
-                {/* <Link to="https://www.linkedin.com/in/anam-gulzar-techie/">
+                <Link to="https://www.linkedin.com/in/anam-gulzar-techie/">
                   <img
                     src="download.png"
                     alt=""
@@ -39,7 +39,7 @@ const About = () => {
                     height="50px"
                     className="rounded-full mx-2 h-12"
                   />
-                </Link> */}
+                </Link>
                 <Link to="https://www.instagram.com/" className="my-3 mx-4">
                   <img src="downloads.jpg" alt="" width="20px" height="20px"  />
                 </Link>
