@@ -57,7 +57,10 @@ const Navbar = () => {
               <Link to="skills">Skills</Link>
             </li>
             <li className="hover:text-orange-600 p-3 duration-200">
-              <Link to="achivements">Achivements</Link>
+              <Link to="achievment">Achivements</Link>
+            </li>
+            <li className="hover:text-orange-600 p-3 duration-200">
+              <Link to="project">project</Link>
             </li>
             <li className="hover:text-orange-600 p-3 duration-200">
               <Link to="create-notes">Create Notes</Link>

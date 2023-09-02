@@ -9,10 +9,10 @@ const About = () => {
       <div className=" bg-slate-950 py-20 ">
         <div className="flex flex-col items-center  lg:flex-row">
           <div className="text-center mb-12 px-10  md:text-left w-full lg:w-1/2 md:pr-10 ">
-            <h1 className=" text-white text-3xl mx-10 my-2 md:text-4xl font-bold leading-snug mb-4xl  ">
+            <h1 className=" text-white text-3xl mx-10 my-4 md:text-4xl font-bold leading-snug mb-4xl  ">
               Hafiza Anam Gulzar
             </h1>
-            <p className="  text-white leading-relaxed mt-4  mb-5 ">
+            <p className="  text-white leading-relaxed mt-4  mx-8 mb-5 ">
               Here is anam gulzar,I am frontend developer having experience of
               working with open source projects. I have developed software
               applications using various technologies like
@@ -26,12 +26,12 @@ const About = () => {
               of time.
             </p>
 
-            <div className="flex  flex-row my-2 mx-4 pl-2  ">
+            <div className=" flex  flex-row  my-2 mx-12 pl-2  ">
               <Link to={"https://www.linkedin.com/feed/"}>
                 <Button text={"Linkedin"} />
               </Link>
               <div className="flex  flex-row  bg-slate-50 mx-16 rounded-lg h-12">
-                <Link to="https://www.linkedin.com/in/anam-gulzar-techie/">
+                {/* <Link to="https://www.linkedin.com/in/anam-gulzar-techie/">
                   <img
                     src="download.png"
                     alt=""
@@ -39,9 +39,9 @@ const About = () => {
                     height="50px"
                     className="rounded-full mx-2 h-12"
                   />
-                </Link>
+                </Link> */}
                 <Link to="https://www.instagram.com/" className="my-3 mx-4">
-                  <img src="downloads.jpg" alt="" width="20px" height="20px" />
+                  <img src="downloads.jpg" alt="" width="20px" height="20px"  />
                 </Link>
                 <Link to="https://web.whatsapp.com/" className="my-2 mx-4 ">
                   <img src="watsap.jpg" alt="" width="30px" height="30px" />
@@ -72,7 +72,7 @@ const About = () => {
         <div className="flex flex-row  md:flex-wrap">
           <div className="text-center  px-20 my-32 mb-12 md:text-left md:w-full md:pr-10 lg:w-full lg:text-center">
             <h1 className=" text-white animate-pulse  text-4xl  md:text-4xl font-bold leading-snug mb-16 lg:text-6xl">
-              Contect Us
+              Contect Info.
             </h1>
 
             <div className="container ">
