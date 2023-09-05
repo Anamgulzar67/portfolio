@@ -8,19 +8,19 @@ import Stack from "@mui/material/Stack";
 const Skills = () => {
   return (
     <>
-    <div
+    {/* <div
           className="w-80 h-80 bg-fuchsia-800 absolute top-0 left-5 z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
         ></div>
         <div
           className="w-80 h-80 bg-rose-400 absolute bottom-0 right-0 z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
-        ></div>
+        ></div> */}
       <div className="py-20 bg-slate-950 ">
-        <div className="flex flex-row  md:flex-row lg:w-full">
-          <div className="sm:text-center my-10 sm:mb-12 md:text-center md:w-full md:pr-2 lg:text-center lg:w-full lg:items-center">
-            <h1 className=" text-white  sm:text-center text-5xl md:text-center font-bold  mb-4">
+        <div className="flex flex-row sm:items-center sm:w-full md:flex-row lg:w-full">
+          <div className="sm:text-center sm:mx-auto my-10  md:text-center md:w-full md:pr-2 lg:text-center lg:w-full lg:items-center">
+            <h1 className=" text-white sm:text-3xl sm:py-4 animate-pulse text-center md:text-4xl font-bold leading-snug mb-4xl lg:text-5xl">
                Skills 
             </h1>
-            <div className="flex flex-row sm:gap-5 sm:my-10 md:flex md:flex-wrap md:gap-5 md:my-20 lg:gap-5 lg:my-20 ">
+            <div className="flex flex-row py-10 sm:gap-5 sm:my-10 md:flex md:flex-wrap md:gap-5 md:my-20 lg:gap-5 lg:mx-auto lg:my-20 ">
               
 
               <Stack className ="flex flex-row mx-56 flex-wrap gap-6 " direction="row" spacing={2}>
@@ -58,8 +58,8 @@ const Skills = () => {
 
 
 
-            <div className="text-center my-10 mb-12 md:text-left md:w-1/2 md:pr-10"></div>
-            <h3 className="text-white py-5 mx-20 md:text-2xl font-bold  mb-4">
+            <div className="text-center my-10 mb-12 md:text-center  md:pr-10">
+            <h3 className="text-white sm:text-2xl sm:py-4 animate-pulse text-center md:text-3xl font-bold leading-snug mb-4xl lg:text-4xl">
               <ul>
                 <li className="py-3">Hafiz-e-Quran.</li>
                 <li className="py-3">Typing speed 30 wpm.</li>{" "}
@@ -68,6 +68,7 @@ const Skills = () => {
                 <li className="py-3">Ability to communicate with people.</li>
               </ul>
             </h3>
+            </div>
           </div>
         </div>
       </div>

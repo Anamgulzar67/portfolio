@@ -17,12 +17,12 @@ const Navbar = () => {
             <span className="text-white">Anam's</span>Resume 
           </Link>
         </div>
-        <div className="flex justify-between items-center mx-10 h-24 max-v-[1240px]">
-          <ul className="  hidden md:flex space-x-6">
+        <div className="flex justify-between items-center  mx-10 h-24 max-v-[1240px]">
+          <ul className="  hidden md:flex space-x-6 md:ml-0 md:px-0 ">
             <li className="hover:text-orange-600 p-3 text-xl duration-200">
               <Link to="/">Home</Link>
             </li>
-            <li className="hover:text-orange-600 p-3 text-xl duration-200">
+            <li className="hover:text-orange-600 p-3 text-xl  duration-200">
               <Link to="skills">Skills</Link>
             </li>
             
@@ -50,8 +50,6 @@ const Navbar = () => {
             <ul className="  z-10 bg-slate-950 py-20 uppercase lg:hidden ">
             <li className="hover:text-orange-600 p-3 duration-200">
               <Link to="/">Home</Link>
-                
-
             </li>
             <li className="hover:text-orange-600 p-3 duration-200">
               <Link to="skills">Skills</Link>

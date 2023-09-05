@@ -4,8 +4,8 @@ import Button from "../components/Button";
 const About = () => {
   return (
     <>
-      <div className="w-80 h-80 bg-fuchsia-600 absolute top-0 left-5 z-10 blur-3xl opacity-30 overflow-hidden rounded-full"></div>
-      <div className="w-80 h-80 bg-slate-500 absolute bottom-0 right-0 z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+      {/* <div className="w-80 h-80 bg-fuchsia-600 absolute top-0 left-5 z-10 blur-3xl opacity-30 overflow-hidden rounded-full"></div> */}
+      {/* <div className="w-80 h-80 bg-slate-500 absolute bottom-0 right-0 z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div> */}
       <div className=" bg-slate-950 py-20 ">
         <div className="flex flex-col items-center  lg:flex-row">
           <div className="text-center mb-12 px-10  md:text-left w-full lg:w-1/2 md:pr-10 ">
@@ -25,39 +25,28 @@ const About = () => {
               produce high-quality software at low cost and with a small cycle
               of time.
             </p>
-
-            <div className=" flex  flex-row  my-2 mx-12 pl-2  ">
-              <Link to={"https://www.linkedin.com/feed/"}>
+            {/* <div className="grid grid-col mx-6  md:grid-col-2 gap-2 lg:grid-cols-4 "> */}
+            <div className="flex flex-row item-center sm: my-4 flex-wrap mx-8 ">
+              {/* button  */}
+              <Link
+                to={"https://www.linkedin.com/feed/"}
+                className="m-2"
+              >
                 <Button text={"Linkedin"} />
               </Link>
-              <div className="flex  flex-row  bg-slate-50 mx-16 rounded-lg h-12">
-                <Link to="https://www.linkedin.com/in/anam-gulzar-techie/">
-                  <img
-                    src="download.png"
-                    alt=""
-                    width="100px"
-                    height="50px"
-                    className="rounded-full mx-2 h-12"
-                  />
-                </Link>
-                <Link to="https://www.instagram.com/" className="my-3 mx-4">
-                  <img src="downloads.jpg" alt="" width="20px" height="20px"  />
-                </Link>
-                <Link to="https://web.whatsapp.com/" className="my-2 mx-4 ">
-                  <img src="watsap.jpg" alt="" width="30px" height="30px" />
-                </Link>
-                <Link
-                  to="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
-                  className="my-2 mx-4"
-                >
-                  <img
-                    src="download (1).png"
-                    alt=""
-                    width="30px"
-                    height="30px"
-                  />
-                </Link>
-              </div>
+              <Link to={"https://www.instagram.com/"} className="m-2">
+                <Button text={"Instagram"} />
+              </Link>
+              <Link to={"https://web.whatsapp.com/"} className="m-2">
+                <Button text={"WattsApp"} />
+              </Link>
+              <Link
+                to={"https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"}
+                className="m-2"
+              >
+                <Button text={"Mail"} />
+              </Link>
+             
             </div>
           </div>
           <div className="md:w-1/2 animate-pulse ">
@@ -99,10 +88,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
-
-
-      
       </div>
     </>
   );

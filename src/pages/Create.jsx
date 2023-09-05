@@ -65,12 +65,12 @@ const Create = () => {
 
   return (
     <>
-    <div
+    {/* <div
           className="w-80 h-80 bg-fuchsia-400 absolute top-0 left-5 z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
         ></div>
         <div
           className="w-80 h-80 bg-rose-200 absolute bottom-0 right-0 z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
-        ></div>
+        ></div> */}
     <div className="py-20 bg-slate-950 min-h-screen text-white">
   
       <div className="flex justify-around m-2">
@@ -79,7 +79,7 @@ const Create = () => {
           <Button text={'Show Data'} />
         </Link>
       </div>
-      <form className="flex flex-col items-center gap-4 mt-4 w-2/3 mx-auto">
+      <form className="flex flex-col items-center gap-6 mt-4 w-2/3 mx-auto">
         <TextFieldCustom handleOnBlur={checkNameValidation} value={name} setValue={(val) => handleChange("name", val)} label={"Name"} />
         {nameError ? <p className="text-center text-red-600">{nameError}</p> : null}
         <TextFieldCustom handleOnBlur={checkEmailValidation} value={email} setValue={(val) => handleChange("email", val)} label={"Email"} />

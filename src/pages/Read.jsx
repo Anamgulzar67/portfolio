@@ -28,12 +28,12 @@ const Read = () => {
   }, []);
   return (
     <>
-    <div
+    {/* <div
           className="w-80 h-80 bg-fuchsia-500 absolute top-0 -left-5 z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
         ></div>
         <div
           className="w-80 h-80 bg-orange-400 absolute bottom-0 right-0 z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
-        ></div>
+        ></div> */}
     <div className="py-20 bg-slate-950 min-h-screen text-white">
       <div className="flex justify-around m-2">
         <h2 className="text-2xl ">Notes</h2>
