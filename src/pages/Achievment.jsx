@@ -6,7 +6,7 @@ const Achievment = () => {
      
       <div className="py-30 bg-slate-950 ">
         <div className="flex flex-row  md:flex-wrap">
-          <div className="text-center  px-20 my-20 mb-12 md:text-left md:w-full md:pr-10 lg:w-full lg:text-center">
+          <div className="text-center  px-16 my-20 mb-12 md:text-left md:w-full md:pr-10 lg:w-full lg:text-center">
             <h1 className=" text-white animate-pulse  text-4xl  md:text-4xl font-bold leading-snug mb-16">
               Achievement
             </h1>

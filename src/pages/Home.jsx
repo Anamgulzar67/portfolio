@@ -79,8 +79,10 @@ const About = () => {
                 <div className=" shadow-lg shadow-yellow-500/50 hover:scale-105  border-solid  text-white border-yellow-200  text-center py-20 pt-2 px-5 rounded-2xl ">
                   <h1 className="text-xl font-bold py-4">LinkedIn:</h1>
                   <h2 className=" font-bold py-4">
-                    <a href="https://www.instagram.com/ranain_noor/">
-                      https://www.instagram.com/ranain_noor/
+                    <a href="https://www.linkedin.com/feed/">
+                    www.linkedin.com/in/anam-gulzar-techie
+
+
                     </a>
                   </h2>
                 </div>
